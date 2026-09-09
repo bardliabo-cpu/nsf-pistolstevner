@@ -1,0 +1,54 @@
+name: Oppdater NSF pistolstevner
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hent repository
+        uses: actions/checkout@v4
+
+      - name: Hent ferske data fra NSF Worker
+        run: |
+          curl --fail --silent --show-error \
+            --retry 3 \
+            "https://nsf-pistolstevner.bard-liabo.workers.dev/" \
+            -o competitions.json
+
+      - name: Kontroller JSON
+        run: |
+          python - <<'PY'
+          import json
+
+          with open("competitions.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          assert data["source"] == "Norges Sportsskytterforbund / SkytterAdmin"
+          assert data["filters"]["branch"] == "Pistol"
+          assert "competitions" in data
+          assert isinstance(data["competitions"], list)
+
+          print("generatedAt:", data["generatedAt"])
+          print("Antall stevner:", len(data["competitions"]))
+          PY
+
+      - name: Lagre nye data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add competitions.json
+
+          if git diff --cached --quiet; then
+            echo "Ingen endringer."
+          else
+            git commit -m "Oppdater NSF pistolstevner"
+            git push
+          fi
