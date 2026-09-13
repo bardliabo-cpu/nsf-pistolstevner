@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-09-12T05:21:51.274Z",
+  "generatedAt": "2026-09-13T05:21:44.599Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,7 +10,7 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 274,
+  "count": 276,
   "competitions": [
     {
       "id": "c1750fac-9d52-4ee2-1024-08ddf086fe3b",
@@ -4258,7 +4258,7 @@
       "registrationStartDate": "2026-06-01T15:00:00",
       "registrationEndDate": "2026-09-11T15:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "2c24dad4-23c6-4c17-9d05-08df0b84bac4",
@@ -4905,6 +4905,42 @@
       "applicationType": 2,
       "registrationStartDate": "2026-09-01T10:00:00",
       "registrationEndDate": "2026-12-20T11:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "b68fa884-6fe2-457d-5001-08df10c0d236",
+      "title": "Kisen Open Lørdag",
+      "startDate": "2027-01-16T08:00:00",
+      "endDate": "2027-01-16T08:00:00",
+      "organizationId": "17a1cb61-e800-483c-43c7-08d87a883fce",
+      "organizationName": "Kisen Sportsskytterklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "e4d458a2-7372-4641-91a4-08d87c38603e",
+      "facilityName": "Alfhallen",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 1,
+      "registrationStartDate": "2026-10-08T11:00:00",
+      "registrationEndDate": "2026-12-28T21:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "95c3d094-317d-4373-5002-08df10c0d236",
+      "title": "Kisen Open søndag",
+      "startDate": "2027-01-17T08:00:00",
+      "endDate": "2027-01-17T08:00:00",
+      "organizationId": "17a1cb61-e800-483c-43c7-08d87a883fce",
+      "organizationName": "Kisen Sportsskytterklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "e4d458a2-7372-4641-91a4-08d87c38603e",
+      "facilityName": "Alfhallen",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 1,
+      "registrationStartDate": "2026-10-08T07:00:00",
+      "registrationEndDate": "2026-12-26T09:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
