@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-09-13T05:21:44.599Z",
+  "generatedAt": "2026-09-14T05:23:30.417Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,7 +10,7 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 276,
+  "count": 277,
   "competitions": [
     {
       "id": "c1750fac-9d52-4ee2-1024-08ddf086fe3b",
@@ -4261,6 +4261,24 @@
       "hasResult": true
     },
     {
+      "id": "d4d33ed5-5885-4c18-c315-08de25f439cc",
+      "title": "luft inne",
+      "startDate": "2026-09-13T09:00:00",
+      "endDate": "2026-09-13T09:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
       "id": "2c24dad4-23c6-4c17-9d05-08df0b84bac4",
       "title": "Luft 60/40 kl. 1200",
       "startDate": "2026-09-13T10:00:00",
@@ -4276,7 +4294,7 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "ee9fcb5c-6220-4aed-9cfe-08df0b84bac4",
