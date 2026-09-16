@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-09-15T05:24:34.545Z",
+  "generatedAt": "2026-09-16T05:23:22.127Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -4705,7 +4705,7 @@
       "competitionTypeName": "Åpent stevne",
       "status": 1,
       "applicationType": 2,
-      "registrationStartDate": "2026-09-17T19:00:00",
+      "registrationStartDate": "2026-09-21T06:00:00",
       "registrationEndDate": "2026-10-14T19:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
@@ -4723,7 +4723,7 @@
       "competitionTypeName": "Åpent stevne",
       "status": 1,
       "applicationType": 2,
-      "registrationStartDate": "2026-09-17T19:00:00",
+      "registrationStartDate": "2026-09-21T06:00:00",
       "registrationEndDate": "2026-10-14T19:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
