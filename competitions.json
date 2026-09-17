@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-09-16T05:23:22.127Z",
+  "generatedAt": "2026-09-17T05:23:55.299Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -1508,7 +1508,7 @@
     },
     {
       "id": "9159b5da-2028-45d9-928f-08de7ec0d4b6",
-      "title": "NM Pistol",
+      "title": "NM Pistol 10m",
       "startDate": "2026-03-21T08:00:00",
       "endDate": "2026-03-21T08:00:00",
       "organizationId": "17a1cb61-e800-483c-43c7-08d87a883fce",
