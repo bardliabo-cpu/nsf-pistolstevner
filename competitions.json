@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-09-18T05:22:09.187Z",
+  "generatedAt": "2026-09-19T05:21:36.253Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,7 +10,7 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 281,
+  "count": 283,
   "competitions": [
     {
       "id": "c1750fac-9d52-4ee2-1024-08ddf086fe3b",
@@ -4351,6 +4351,24 @@
       "hasResult": false
     },
     {
+      "id": "7742795a-a9a2-44ef-c309-08de25f439cc",
+      "title": "Omnescup",
+      "startDate": "2026-09-19T08:00:00",
+      "endDate": "2026-09-19T08:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
       "id": "f44a54e7-f37e-46cf-9cff-08df0b84bac4",
       "title": "OKTS Fin/Grovpistol",
       "startDate": "2026-09-21T13:30:00",
@@ -4923,6 +4941,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-07-12T10:00:00",
       "registrationEndDate": "2026-11-16T22:59:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "f421eab3-3cbd-42d2-501d-08df10c0d236",
+      "title": "Romjulsluft",
+      "startDate": "2026-12-27T09:00:00",
+      "endDate": "2026-12-27T09:00:00",
+      "organizationId": "03b22f15-b28b-4165-43b2-08d87a883fce",
+      "organizationName": "Vestre Bærum Salongskytterlag",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "7f8fa48f-c71e-4386-53a1-08d931de9a9f",
+      "facilityName": "Skytterhuset Rykkinn",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 3,
+      "registrationStartDate": "2026-11-28T23:01:00",
+      "registrationEndDate": "2026-12-26T22:59:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
