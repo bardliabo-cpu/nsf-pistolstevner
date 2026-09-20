@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-09-19T05:21:36.253Z",
+  "generatedAt": "2026-09-20T05:21:54.710Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -4366,7 +4366,7 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "f44a54e7-f37e-46cf-9cff-08df0b84bac4",
