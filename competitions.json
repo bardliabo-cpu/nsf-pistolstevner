@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-09-21T05:23:31.434Z",
+  "generatedAt": "2026-09-22T05:23:13.078Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,7 +10,7 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 284,
+  "count": 286,
   "competitions": [
     {
       "id": "c1750fac-9d52-4ee2-1024-08ddf086fe3b",
@@ -4402,7 +4402,7 @@
       "registrationStartDate": "2026-09-07T05:00:00",
       "registrationEndDate": "2026-09-20T21:59:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "ef0755c1-3eec-4022-500f-08df10c0d236",
@@ -4563,6 +4563,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-08-10T19:00:00",
       "registrationEndDate": "2026-09-25T19:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "a40aac64-3809-4ac9-5049-08df10c0d236",
+      "title": "Luft 60/40 kl. 1200",
+      "startDate": "2026-09-27T10:00:00",
+      "endDate": "2026-09-27T10:00:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
+      "facilityName": "Kolsås Luftbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
@@ -4887,6 +4905,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-09-17T19:00:00",
       "registrationEndDate": "2026-10-23T19:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "09d9e15a-8f7d-4c66-503d-08df10c0d236",
+      "title": "OPK T96",
+      "startDate": "2026-11-07T11:00:00",
+      "endDate": "2026-11-07T11:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-01T19:00:00",
+      "registrationEndDate": "2026-11-06T20:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
