@@ -23,28 +23,174 @@ jobs:
             "https://nsf-pistolstevner.bard-liabo.workers.dev/" \
             -o competitions.json
 
-      - name: Kontroller JSON
+      - name: Kontroller JSON og lag 14-dagersoversikt
         run: |
           python - <<'PY'
           import json
+          import html
+          from datetime import datetime, timedelta, timezone
+          from zoneinfo import ZoneInfo
+
+          OSLO = ZoneInfo("Europe/Oslo")
 
           with open("competitions.json", encoding="utf-8") as f:
               data = json.load(f)
 
           assert data["source"] == "Norges Sportsskytterforbund / SkytterAdmin"
           assert data["filters"]["branch"] == "Pistol"
-          assert "competitions" in data
           assert isinstance(data["competitions"], list)
 
           print("generatedAt:", data["generatedAt"])
           print("Antall stevner:", len(data["competitions"]))
+
+          now = datetime.now(OSLO)
+          today = now.date()
+          last_day = today + timedelta(days=14)
+
+          def parse_date(value):
+              if not value:
+                  return None
+              value = value.replace("Z", "+00:00")
+              dt = datetime.fromisoformat(value)
+              if dt.tzinfo is None:
+                  dt = dt.replace(tzinfo=timezone.utc)
+              return dt.astimezone(OSLO)
+
+          current = []
+
+          for c in data["competitions"]:
+              start = parse_date(c.get("startDate"))
+              if not start:
+                  continue
+
+              # NSF status 3 = avlyst
+              if c.get("status") == 3:
+                  continue
+
+              if today <= start.date() <= last_day:
+                  current.append(c)
+
+          current.sort(
+              key=lambda c: parse_date(c.get("startDate"))
+              or datetime.max.replace(tzinfo=OSLO)
+          )
+
+          current_data = {
+              "source": data["source"],
+              "sourceApi": data.get("sourceApi"),
+              "generatedAt": data["generatedAt"],
+              "windowStart": today.isoformat(),
+              "windowEnd": last_day.isoformat(),
+              "count": len(current),
+              "competitions": current,
+          }
+
+          with open("current.json", "w", encoding="utf-8") as f:
+              json.dump(current_data, f, ensure_ascii=False, indent=2)
+
+          rows = []
+
+          for c in current:
+              start = parse_date(c.get("startDate"))
+
+              title = html.escape(str(c.get("title") or "Ikke oppgitt"))
+              club = html.escape(
+                  str(
+                      c.get("organizationName")
+                      or c.get("organization", {}).get("name")
+                      or "Ikke oppgitt"
+                  )
+              )
+              facility = html.escape(
+                  str(
+                      c.get("facilityName")
+                      or c.get("facility", {}).get("name")
+                      or "Ikke oppgitt"
+                  )
+              )
+              comp_type = html.escape(
+                  str(
+                      c.get("competitionTypeName")
+                      or c.get("typeName")
+                      or c.get("type")
+                      or "Ikke oppgitt"
+                  )
+              )
+              comp_id = html.escape(str(c.get("id") or ""))
+
+              rows.append(
+                  "<tr>"
+                  f"<td>{start.strftime('%d.%m.%Y %H:%M')}</td>"
+                  f"<td>{title}</td>"
+                  f"<td>{club}</td>"
+                  f"<td>{facility}</td>"
+                  f"<td>{comp_type}</td>"
+                  f"<td>{comp_id}</td>"
+                  "</tr>"
+              )
+
+          if rows:
+              table_body = "\n".join(rows)
+          else:
+              table_body = (
+                  '<tr><td colspan="6">'
+                  'Ingen aktive pistolstevner i perioden.'
+                  '</td></tr>'
+              )
+
+          page = f"""<!doctype html>
+          <html lang="no">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>NSF pistolstevner – Oslo og Akershus</title>
+          </head>
+          <body>
+            <h1>NSF pistolstevner – Oslo og Akershus</h1>
+
+            <p><strong>Kilde:</strong>
+            Norges Sportsskytterforbund / SkytterAdmin</p>
+
+            <p><strong>Sist hentet fra NSF:</strong>
+            {html.escape(str(data["generatedAt"]))}</p>
+
+            <p><strong>14-dagersperiode:</strong>
+            {today.strftime('%d.%m.%Y')}–{last_day.strftime('%d.%m.%Y')}</p>
+
+            <p><strong>Aktive stevner i perioden:</strong>
+            {len(current)}</p>
+
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Dato/tid</th>
+                  <th>Stevne</th>
+                  <th>Arrangør</th>
+                  <th>Anlegg</th>
+                  <th>Type</th>
+                  <th>NSF-ID</th>
+                </tr>
+              </thead>
+              <tbody>
+                {table_body}
+              </tbody>
+            </table>
+          </body>
+          </html>
+          """
+
+          with open("index.html", "w", encoding="utf-8") as f:
+              f.write(page)
+
+          print("Aktive stevner neste 14 dager:", len(current))
           PY
 
       - name: Lagre nye data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add competitions.json
+
+          git add competitions.json current.json index.html
 
           if git diff --cached --quiet; then
             echo "Ingen endringer."
