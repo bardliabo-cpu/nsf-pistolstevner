@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-09-29T05:25:23.922Z",
+  "generatedAt": "2026-09-30T05:26:00.829Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,7 +10,7 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 308,
+  "count": 309,
   "competitions": [
     {
       "id": "c1750fac-9d52-4ee2-1024-08ddf086fe3b",
@@ -4707,6 +4707,24 @@
       "applicationType": 0,
       "registrationStartDate": null,
       "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "65680596-ddd1-4205-fbc2-08df1cc594a2",
+      "title": "OKTS Fripistol B",
+      "startDate": "2026-10-05T13:45:00",
+      "endDate": "2026-10-05T13:45:00",
+      "organizationId": "5562cde0-eb75-4da5-43d6-08d87a883fce",
+      "organizationName": "Oslo Kommunale Tjenestemenns Skytterlag",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "979683da-9382-4fa1-78c3-08d904e2669b",
+      "facilityName": "Ekeberg Skytebane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-09-29T05:00:00",
+      "registrationEndDate": "2026-10-04T21:59:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
