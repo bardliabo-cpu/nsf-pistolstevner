@@ -1,11 +1,29 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-10-03T05:33:40.475Z",
-  "windowStart": "2026-10-03",
-  "windowEnd": "2026-10-17",
-  "count": 17,
+  "generatedAt": "2026-10-04T11:03:25.490Z",
+  "windowStart": "2026-10-04",
+  "windowEnd": "2026-10-18",
+  "count": 18,
   "competitions": [
+    {
+      "id": "4ab9931b-33f5-4515-c318-08de25f439cc",
+      "title": "luft inne",
+      "startDate": "2026-10-04T09:00:00",
+      "endDate": "2026-10-04T09:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
     {
       "id": "70809379-c62f-4b64-fffe-08df046d662c",
       "title": "Luft 60/40 kl. 16",
