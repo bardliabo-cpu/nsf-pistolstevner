@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-10-06T05:26:19.159Z",
+  "generatedAt": "2026-10-07T05:27:41.344Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,7 +10,7 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 316,
+  "count": 317,
   "competitions": [
     {
       "id": "c1750fac-9d52-4ee2-1024-08ddf086fe3b",
@@ -4744,7 +4744,7 @@
       "registrationStartDate": "2026-09-29T05:00:00",
       "registrationEndDate": "2026-10-04T21:59:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "e89a79f5-4561-4677-fbcc-08df1cc594a2",
@@ -4796,7 +4796,7 @@
       "status": 1,
       "applicationType": 2,
       "registrationStartDate": "2026-09-26T14:00:00",
-      "registrationEndDate": "2026-10-06T18:00:00",
+      "registrationEndDate": "2026-10-07T10:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
@@ -4891,6 +4891,24 @@
       "hasResult": false
     },
     {
+      "id": "4f241f01-9f61-420a-fbe5-08df1cc594a2",
+      "title": "Luft 60/40",
+      "startDate": "2026-10-11T10:00:00",
+      "endDate": "2026-10-11T10:00:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
+      "facilityName": "Kolsås Luftbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
       "id": "153597c9-0c74-47bd-0541-08ded1d5c232",
       "title": "OKTS Vinterserien runde 1",
       "startDate": "2026-10-12T15:00:00",
@@ -4964,7 +4982,7 @@
     },
     {
       "id": "2fbafb41-a1ef-4158-9d3a-08df0b84bac4",
-      "title": "OPK NAIS F/G #1",
+      "title": "Lapua Hjemmebane - OPK NAIS F/G #1",
       "startDate": "2026-10-15T16:00:00",
       "endDate": "2026-10-15T16:00:00",
       "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
@@ -4976,13 +4994,13 @@
       "status": 1,
       "applicationType": 2,
       "registrationStartDate": "2026-09-21T06:00:00",
-      "registrationEndDate": "2026-10-14T19:00:00",
+      "registrationEndDate": "2026-10-12T19:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
     {
       "id": "9647de39-5346-469d-9d39-08df0b84bac4",
-      "title": "OPK NAIS F/G #2",
+      "title": "Lapua hjemmebane - OPK NAIS F/G #2",
       "startDate": "2026-10-15T17:00:00",
       "endDate": "2026-10-15T17:00:00",
       "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
@@ -4994,7 +5012,7 @@
       "status": 1,
       "applicationType": 2,
       "registrationStartDate": "2026-09-21T06:00:00",
-      "registrationEndDate": "2026-10-14T19:00:00",
+      "registrationEndDate": "2026-10-12T19:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
