@@ -1,29 +1,11 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-10-07T05:27:41.344Z",
-  "windowStart": "2026-10-07",
-  "windowEnd": "2026-10-21",
+  "generatedAt": "2026-10-08T05:27:25.688Z",
+  "windowStart": "2026-10-08",
+  "windowEnd": "2026-10-22",
   "count": 14,
   "competitions": [
-    {
-      "id": "7d9e8212-c487-4c51-bc4a-08df186c4a49",
-      "title": "10 og 15 meter",
-      "startDate": "2026-10-07T14:20:00",
-      "endDate": "2026-10-07T14:20:00",
-      "organizationId": "17a1cb61-e800-483c-43c7-08d87a883fce",
-      "organizationName": "Kisen Sportsskytterklubb",
-      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
-      "facilityId": "e4d458a2-7372-4641-91a4-08d87c38603e",
-      "facilityName": "Alfhallen",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 2,
-      "registrationStartDate": "2026-09-26T14:00:00",
-      "registrationEndDate": "2026-10-07T10:00:00",
-      "hasPendingChangeRequests": false,
-      "hasResult": false
-    },
     {
       "id": "f507f524-fb27-4a96-9d31-08df0b84bac4",
       "title": "OPK Hurtig på Papp #1",
@@ -255,6 +237,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-07-12T15:00:00",
       "registrationEndDate": "2026-10-15T21:59:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "8172e67c-8505-44ff-087d-08de356e9354",
+      "title": "Torsdagsluft",
+      "startDate": "2026-10-22T16:00:00",
+      "endDate": "2026-10-22T16:00:00",
+      "organizationId": "03b22f15-b28b-4165-43b2-08d87a883fce",
+      "organizationName": "Vestre Bærum Salongskytterlag",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "7f8fa48f-c71e-4386-53a1-08d931de9a9f",
+      "facilityName": "Skytterhuset Rykkinn",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 3,
+      "registrationStartDate": "2026-09-19T22:01:00",
+      "registrationEndDate": "2026-10-21T21:59:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     }
