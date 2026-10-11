@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-10-10T05:25:37.687Z",
+  "generatedAt": "2026-10-11T11:22:50.341Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -4816,7 +4816,7 @@
       "registrationStartDate": "2026-09-17T19:00:00",
       "registrationEndDate": "2026-10-09T19:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "1c9d04cd-98d9-4030-9d32-08df0b84bac4",
@@ -4834,7 +4834,7 @@
       "registrationStartDate": "2026-09-17T19:00:00",
       "registrationEndDate": "2026-10-09T19:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "e4815329-af07-41ef-9d33-08df0b84bac4",
@@ -4852,7 +4852,7 @@
       "registrationStartDate": "2026-09-17T19:00:00",
       "registrationEndDate": "2026-10-09T19:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "a5c3e08c-0de8-4729-9d34-08df0b84bac4",
@@ -4870,7 +4870,7 @@
       "registrationStartDate": "2026-09-17T19:00:00",
       "registrationEndDate": "2026-10-09T19:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "7eb6ef63-3167-4d55-fbad-08df1cc594a2",
