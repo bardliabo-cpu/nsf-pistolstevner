@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-10-11T11:22:50.341Z",
+  "generatedAt": "2026-10-12T13:06:26.873Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,7 +10,7 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 318,
+  "count": 319,
   "competitions": [
     {
       "id": "c1750fac-9d52-4ee2-1024-08ddf086fe3b",
@@ -4873,6 +4873,24 @@
       "hasResult": true
     },
     {
+      "id": "977476fa-bdc1-4b9f-c319-08de25f439cc",
+      "title": "luft inne",
+      "startDate": "2026-10-11T09:00:00",
+      "endDate": "2026-10-11T09:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
       "id": "7eb6ef63-3167-4d55-fbad-08df1cc594a2",
       "title": "OPK Luft 3A",
       "startDate": "2026-10-11T10:00:00",
@@ -4888,7 +4906,7 @@
       "registrationStartDate": "2026-09-27T18:00:00",
       "registrationEndDate": "2026-10-11T09:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "4f241f01-9f61-420a-fbe5-08df1cc594a2",
@@ -4906,7 +4924,7 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "a9b08655-12f8-4a44-fc03-08df1cc594a2",
@@ -5012,7 +5030,7 @@
       "status": 1,
       "applicationType": 2,
       "registrationStartDate": "2026-09-21T06:00:00",
-      "registrationEndDate": "2026-10-12T19:00:00",
+      "registrationEndDate": "2026-10-11T15:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
@@ -5030,7 +5048,7 @@
       "status": 1,
       "applicationType": 2,
       "registrationStartDate": "2026-09-21T06:00:00",
-      "registrationEndDate": "2026-10-12T19:00:00",
+      "registrationEndDate": "2026-10-11T15:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
@@ -5587,8 +5605,8 @@
       "competitionTypeName": "Åpent stevne",
       "status": 1,
       "applicationType": 1,
-      "registrationStartDate": "2026-10-08T11:00:00",
-      "registrationEndDate": "2026-12-28T21:00:00",
+      "registrationStartDate": "2026-10-11T11:00:00",
+      "registrationEndDate": "2026-12-10T21:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
@@ -5606,7 +5624,7 @@
       "status": 1,
       "applicationType": 1,
       "registrationStartDate": "2026-10-08T07:00:00",
-      "registrationEndDate": "2026-12-26T09:00:00",
+      "registrationEndDate": "2026-12-10T21:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
