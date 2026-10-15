@@ -1,9 +1,9 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-10-14T10:08:39.483Z",
-  "windowStart": "2026-10-14",
-  "windowEnd": "2026-10-28",
+  "generatedAt": "2026-10-15T09:51:29.891Z",
+  "windowStart": "2026-10-15",
+  "windowEnd": "2026-10-29",
   "count": 15,
   "competitions": [
     {
