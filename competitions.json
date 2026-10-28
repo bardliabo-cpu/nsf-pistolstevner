@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-10-15T09:51:29.891Z",
+  "generatedAt": "2026-10-28T12:16:52.215Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,7 +10,18 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 324,
+  "count": 347,
+  "statistics": {
+    "Oslo": {
+      "count": 184,
+      "pages": 1
+    },
+    "Akershus": {
+      "count": 163,
+      "pages": 1
+    },
+    "apiRequests": 2
+  },
   "competitions": [
     {
       "id": "c1750fac-9d52-4ee2-1024-08ddf086fe3b",
@@ -2209,24 +2220,6 @@
       "hasResult": true
     },
     {
-      "id": "53bb2788-23f2-45e9-78d1-08de12cb3a07",
-      "title": "Ødegårdcup",
-      "startDate": "2026-04-25T08:00:00",
-      "endDate": "2026-04-25T08:00:00",
-      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
-      "organizationName": "Eidsvoll Sportsskyttere",
-      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
-      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
-      "facilityName": "Vidtjennet",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 0,
-      "registrationStartDate": null,
-      "registrationEndDate": null,
-      "hasPendingChangeRequests": false,
-      "hasResult": true
-    },
-    {
       "id": "9dba7b59-0230-4935-d0cf-08de7200d499",
       "title": "OPK 6-stevners banehelg Hurtig FG (stevne 3/6)",
       "startDate": "2026-04-25T08:00:00",
@@ -2241,6 +2234,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-02-28T23:00:00",
       "registrationEndDate": "2026-04-24T14:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
+      "id": "53bb2788-23f2-45e9-78d1-08de12cb3a07",
+      "title": "Ødegårdcup",
+      "startDate": "2026-04-25T08:00:00",
+      "endDate": "2026-04-25T08:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": true
     },
@@ -2929,24 +2940,6 @@
       "hasResult": true
     },
     {
-      "id": "1aa9d445-0965-4205-78d2-08de12cb3a07",
-      "title": "Bjerknescup",
-      "startDate": "2026-05-30T08:00:00",
-      "endDate": "2026-05-30T08:00:00",
-      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
-      "organizationName": "Eidsvoll Sportsskyttere",
-      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
-      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
-      "facilityName": "Vidtjennet",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 0,
-      "registrationStartDate": null,
-      "registrationEndDate": null,
-      "hasPendingChangeRequests": false,
-      "hasResult": true
-    },
-    {
       "id": "1bbeb0fc-4bf2-460e-37df-08de8cc3220b",
       "title": "OPK Hurtig på papp #1",
       "startDate": "2026-05-30T08:00:00",
@@ -2961,6 +2954,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-05-01T10:00:00",
       "registrationEndDate": "2026-05-30T07:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
+      "id": "1aa9d445-0965-4205-78d2-08de12cb3a07",
+      "title": "Bjerknescup",
+      "startDate": "2026-05-30T08:00:00",
+      "endDate": "2026-05-30T08:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": true
     },
@@ -3253,24 +3264,6 @@
       "hasResult": true
     },
     {
-      "id": "ca4163a0-e4a4-43a1-78d3-08de12cb3a07",
-      "title": "Sommercup",
-      "startDate": "2026-06-20T08:00:00",
-      "endDate": "2026-06-20T08:00:00",
-      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
-      "organizationName": "Eidsvoll Sportsskyttere",
-      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
-      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
-      "facilityName": "Vidtjennet",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 0,
-      "registrationStartDate": null,
-      "registrationEndDate": null,
-      "hasPendingChangeRequests": false,
-      "hasResult": true
-    },
-    {
       "id": "d0aa39d1-dc43-4a32-37e5-08de8cc3220b",
       "title": "OPK Hurtig på papp #1",
       "startDate": "2026-06-20T08:00:00",
@@ -3285,6 +3278,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-05-22T10:00:00",
       "registrationEndDate": "2026-06-20T07:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
+      "id": "ca4163a0-e4a4-43a1-78d3-08de12cb3a07",
+      "title": "Sommercup",
+      "startDate": "2026-06-20T08:00:00",
+      "endDate": "2026-06-20T08:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": true
     },
@@ -3793,24 +3804,6 @@
       "hasResult": true
     },
     {
-      "id": "8bd71163-7433-4d99-ef1c-08deee402915",
-      "title": "Luft 60/40",
-      "startDate": "2026-08-10T16:00:00",
-      "endDate": "2026-08-10T16:00:00",
-      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
-      "organizationName": "Bærum Pistolklubb",
-      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
-      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
-      "facilityName": "Kolsås Luftbane",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 0,
-      "registrationStartDate": null,
-      "registrationEndDate": null,
-      "hasPendingChangeRequests": false,
-      "hasResult": true
-    },
-    {
       "id": "29b9732f-f1ec-4aa8-84da-08def2bf173c",
       "title": "OKTS Finpistol 2",
       "startDate": "2026-08-10T16:00:00",
@@ -3825,6 +3818,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-08-10T06:00:00",
       "registrationEndDate": "2026-08-10T15:59:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
+      "id": "8bd71163-7433-4d99-ef1c-08deee402915",
+      "title": "Luft 60/40",
+      "startDate": "2026-08-10T16:00:00",
+      "endDate": "2026-08-10T16:00:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
+      "facilityName": "Kolsås Luftbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": true
     },
@@ -4585,24 +4596,6 @@
       "hasResult": true
     },
     {
-      "id": "a40aac64-3809-4ac9-5049-08df10c0d236",
-      "title": "Luft 60/40 kl. 1200",
-      "startDate": "2026-09-27T10:00:00",
-      "endDate": "2026-09-27T10:00:00",
-      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
-      "organizationName": "Bærum Pistolklubb",
-      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
-      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
-      "facilityName": "Kolsås Luftbane",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 0,
-      "registrationStartDate": null,
-      "registrationEndDate": null,
-      "hasPendingChangeRequests": false,
-      "hasResult": true
-    },
-    {
       "id": "db753a11-6f0b-4d79-bc39-08df186c4a49",
       "title": "OPK Luft 3A",
       "startDate": "2026-09-27T10:00:00",
@@ -4617,6 +4610,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-09-24T15:00:00",
       "registrationEndDate": "2026-09-27T09:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
+      "id": "a40aac64-3809-4ac9-5049-08df10c0d236",
+      "title": "Luft 60/40 kl. 1200",
+      "startDate": "2026-09-27T10:00:00",
+      "endDate": "2026-09-27T10:00:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
+      "facilityName": "Kolsås Luftbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": true
     },
@@ -4996,7 +5007,7 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "7bbe3fcf-ed6a-4119-fbcf-08df1cc594a2",
@@ -5014,7 +5025,7 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "2fbafb41-a1ef-4158-9d3a-08df0b84bac4",
@@ -5032,7 +5043,7 @@
       "registrationStartDate": "2026-09-21T06:00:00",
       "registrationEndDate": "2026-10-13T15:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "9647de39-5346-469d-9d39-08df0b84bac4",
@@ -5050,7 +5061,7 @@
       "registrationStartDate": "2026-09-21T06:00:00",
       "registrationEndDate": "2026-10-13T15:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "47908b93-663e-4286-ca2e-08dedc5d2680",
@@ -5068,7 +5079,7 @@
       "registrationStartDate": "2026-07-12T15:00:00",
       "registrationEndDate": "2026-10-15T21:59:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "d34f0b80-5650-484e-2485-08df290fb00f",
@@ -5086,7 +5097,43 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
+    },
+    {
+      "id": "c1e8a528-e7a7-48ed-24ea-08df290fb00f",
+      "title": "KM Felt Grov Oslo",
+      "startDate": "2026-10-18T07:00:00",
+      "endDate": "2026-10-18T07:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "56c6521d-a2cb-47d6-f7d0-08d87f475c75",
+      "facilityName": "Myhrespiten",
+      "competitionTypeName": "Åpent stevne m/KM",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
+      "id": "7e9df05a-b3b7-42cf-c31a-08de25f439cc",
+      "title": "luft inne",
+      "startDate": "2026-10-18T09:00:00",
+      "endDate": "2026-10-18T09:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": true
     },
     {
       "id": "5269d89d-75e6-4cee-fc1a-08df1cc594a2",
@@ -5104,7 +5151,7 @@
       "registrationStartDate": "2026-10-12T20:00:00",
       "registrationEndDate": "2026-10-18T21:59:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "376d6c73-6c40-400a-fc17-08df1cc594a2",
@@ -5122,7 +5169,7 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "b226bc3c-0207-4c43-fc18-08df1cc594a2",
@@ -5140,7 +5187,7 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "8172e67c-8505-44ff-087d-08de356e9354",
@@ -5158,7 +5205,7 @@
       "registrationStartDate": "2026-09-19T22:01:00",
       "registrationEndDate": "2026-10-21T21:59:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "27bc82fb-a6bb-4577-0005-08df046d662d",
@@ -5179,6 +5226,42 @@
       "hasResult": false
     },
     {
+      "id": "a5d7be46-76e3-47d1-24e4-08df290fb00f",
+      "title": "10m Lørdag Alfa@Omega",
+      "startDate": "2026-10-24T07:00:00",
+      "endDate": "2026-10-24T07:00:00",
+      "organizationId": "17a1cb61-e800-483c-43c7-08d87a883fce",
+      "organizationName": "Kisen Sportsskytterklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "e4d458a2-7372-4641-91a4-08d87c38603e",
+      "facilityName": "Alfhallen",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 1,
+      "registrationStartDate": "2026-08-31T08:00:00",
+      "registrationEndDate": "2026-10-14T21:59:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
+      "id": "9266ac7f-af64-44d7-24e5-08df290fb00f",
+      "title": "10m Sprint Alfa&Omega",
+      "startDate": "2026-10-24T07:00:00",
+      "endDate": "2026-10-25T08:00:00",
+      "organizationId": "17a1cb61-e800-483c-43c7-08d87a883fce",
+      "organizationName": "Kisen Sportsskytterklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "e4d458a2-7372-4641-91a4-08d87c38603e",
+      "facilityName": "Alfhallen",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 1,
+      "registrationStartDate": "2026-08-31T08:00:00",
+      "registrationEndDate": "2026-10-14T21:59:00",
+      "hasPendingChangeRequests": true,
+      "hasResult": true
+    },
+    {
       "id": "73a1e6fa-f926-4f23-9d35-08df0b84bac4",
       "title": "OPK Hurtig på Papp #1",
       "startDate": "2026-10-24T08:00:00",
@@ -5194,7 +5277,25 @@
       "registrationStartDate": "2026-09-17T19:00:00",
       "registrationEndDate": "2026-10-23T19:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
+    },
+    {
+      "id": "9972a8b2-0c34-46a3-c30b-08de25f439cc",
+      "title": "Stenbrendencup ",
+      "startDate": "2026-10-24T08:00:00",
+      "endDate": "2026-10-24T08:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": true
     },
     {
       "id": "b916883c-886c-4365-9d36-08df0b84bac4",
@@ -5212,7 +5313,7 @@
       "registrationStartDate": "2026-09-17T19:00:00",
       "registrationEndDate": "2026-10-23T19:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "b8615819-a27b-41c0-9d37-08df0b84bac4",
@@ -5230,7 +5331,25 @@
       "registrationStartDate": "2026-09-17T19:00:00",
       "registrationEndDate": "2026-10-23T19:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
+    },
+    {
+      "id": "21335f73-970d-41ce-935c-08df2ea00c3b",
+      "title": "Sprint Alfa&Omega 2026",
+      "startDate": "2026-10-24T12:00:00",
+      "endDate": "2026-10-24T12:00:00",
+      "organizationId": "17a1cb61-e800-483c-43c7-08d87a883fce",
+      "organizationName": "Kisen Sportsskytterklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "e4d458a2-7372-4641-91a4-08d87c38603e",
+      "facilityName": "Alfhallen",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": true
     },
     {
       "id": "c82fc3e7-a20a-423f-9d38-08df0b84bac4",
@@ -5247,6 +5366,42 @@
       "applicationType": 2,
       "registrationStartDate": "2026-09-17T19:00:00",
       "registrationEndDate": "2026-10-23T19:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
+      "id": "26e4eed5-3255-4f35-24e6-08df290fb00f",
+      "title": "10m Søndag Alfa&Omega",
+      "startDate": "2026-10-25T08:00:00",
+      "endDate": "2026-10-26T08:00:00",
+      "organizationId": "17a1cb61-e800-483c-43c7-08d87a883fce",
+      "organizationName": "Kisen Sportsskytterklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "e4d458a2-7372-4641-91a4-08d87c38603e",
+      "facilityName": "Alfhallen",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 1,
+      "registrationStartDate": "2026-09-01T08:00:00",
+      "registrationEndDate": "2026-10-15T21:59:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
+      "id": "744ce800-d68c-410c-c31b-08de25f439cc",
+      "title": "luft inne",
+      "startDate": "2026-10-25T10:00:00",
+      "endDate": "2026-10-25T10:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 3,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
@@ -5267,6 +5422,42 @@
       "registrationEndDate": "2026-10-25T10:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
+    },
+    {
+      "id": "38b890f6-42af-4355-24ef-08df290fb00f",
+      "title": "Luft 60/40 kl. 1200",
+      "startDate": "2026-10-25T11:00:00",
+      "endDate": "2026-10-25T11:00:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
+      "facilityName": "Kolsås Luftbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
+      "id": "9ff226ea-ff89-463a-9285-08df2ea00c3b",
+      "title": "OKTS Fri B",
+      "startDate": "2026-10-26T15:30:00",
+      "endDate": "2026-10-26T15:30:00",
+      "organizationId": "5562cde0-eb75-4da5-43d6-08d87a883fce",
+      "organizationName": "Oslo Kommunale Tjenestemenns Skytterlag",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "12aa7d4c-6c63-4802-78bf-08d904e2669b",
+      "facilityName": "Ekeberg Skytebane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-20T10:00:00",
+      "registrationEndDate": "2026-10-25T22:59:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": true
     },
     {
       "id": "eb6af464-2a37-444a-bc30-08df186c4a49",
@@ -5359,24 +5550,6 @@
       "hasResult": false
     },
     {
-      "id": "7ce406c5-6013-45fc-205f-08dec6c25b7d",
-      "title": "Luft 60/40 Åpent stevne - KB for BPK",
-      "startDate": "2026-11-08T11:00:00",
-      "endDate": "2026-11-08T11:00:00",
-      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
-      "organizationName": "Bærum Pistolklubb",
-      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
-      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
-      "facilityName": "Kolsås Luftbane",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 0,
-      "registrationStartDate": null,
-      "registrationEndDate": null,
-      "hasPendingChangeRequests": false,
-      "hasResult": false
-    },
-    {
       "id": "acc452f3-f446-47c1-fbaf-08df1cc594a2",
       "title": "OPK Luft 3A",
       "startDate": "2026-11-08T11:00:00",
@@ -5391,6 +5564,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-09-27T18:00:00",
       "registrationEndDate": "2026-11-08T10:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "7ce406c5-6013-45fc-205f-08dec6c25b7d",
+      "title": "Luft 60/40 Åpent stevne - KB for BPK",
+      "startDate": "2026-11-08T11:00:00",
+      "endDate": "2026-11-08T11:00:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
+      "facilityName": "Kolsås Luftbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
@@ -5485,6 +5676,78 @@
       "hasResult": false
     },
     {
+      "id": "5b63a954-d75d-4a91-928c-08df2ea00c3b",
+      "title": "OPK Hurtig på papp #1",
+      "startDate": "2026-11-21T09:00:00",
+      "endDate": "2026-11-21T09:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-21T19:00:00",
+      "registrationEndDate": "2026-11-21T08:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "de7786ec-0f0b-4ab2-928d-08df2ea00c3b",
+      "title": "OPK Hurtig på papp #2",
+      "startDate": "2026-11-21T10:30:00",
+      "endDate": "2026-11-21T10:30:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-21T19:00:00",
+      "registrationEndDate": "2026-11-21T08:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "21374576-78a3-41f1-928e-08df2ea00c3b",
+      "title": "OPK Hurtig på papp #3",
+      "startDate": "2026-11-21T12:30:00",
+      "endDate": "2026-11-21T12:30:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-21T19:00:00",
+      "registrationEndDate": "2026-11-21T08:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "386ef72c-3621-498a-928f-08df2ea00c3b",
+      "title": "OPK Hurtig på papp #4",
+      "startDate": "2026-11-21T14:00:00",
+      "endDate": "2026-11-21T14:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-21T19:00:00",
+      "registrationEndDate": "2026-11-21T08:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
       "id": "b67813bb-1453-4a55-fbb0-08df1cc594a2",
       "title": "OPK Luft 3A",
       "startDate": "2026-11-22T11:00:00",
@@ -5539,6 +5802,114 @@
       "hasResult": false
     },
     {
+      "id": "32d5f89f-5945-43c0-9290-08df2ea00c3b",
+      "title": "OPK Luft 60/40",
+      "startDate": "2026-12-06T11:00:00",
+      "endDate": "2026-12-06T11:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "ba027343-7262-46b0-3416-08df18990731",
+      "facilityName": "Miniatyrbanen 25/10m",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-28T20:00:00",
+      "registrationEndDate": "2026-12-06T10:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "08c39e38-678a-4b88-9291-08df2ea00c3b",
+      "title": "OPK Hurtig på papp #1",
+      "startDate": "2026-12-12T09:00:00",
+      "endDate": "2026-12-12T09:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-11-11T20:00:00",
+      "registrationEndDate": "2026-12-12T08:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "32df3c41-a623-497b-9293-08df2ea00c3b",
+      "title": "OPK Hurtig på papp #2",
+      "startDate": "2026-12-12T10:30:00",
+      "endDate": "2026-12-12T10:30:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-11-11T20:00:00",
+      "registrationEndDate": "2026-12-12T08:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "82560500-0e5b-4b91-9292-08df2ea00c3b",
+      "title": "OPK Hurtig på papp #3",
+      "startDate": "2026-12-12T12:30:00",
+      "endDate": "2026-12-12T12:30:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-11-11T20:00:00",
+      "registrationEndDate": "2026-12-12T08:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "3df6ed56-3332-48de-9294-08df2ea00c3b",
+      "title": "OPK Hurtig på papp #4",
+      "startDate": "2026-12-12T14:00:00",
+      "endDate": "2026-12-12T14:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-11-11T20:00:00",
+      "registrationEndDate": "2026-12-12T08:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "f18087ab-e94f-48c7-9295-08df2ea00c3b",
+      "title": "OPK Hurtig fin/grov",
+      "startDate": "2026-12-15T17:00:00",
+      "endDate": "2026-12-15T17:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-28T20:00:00",
+      "registrationEndDate": "2026-12-15T16:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
       "id": "a79a436a-05db-45d0-bc4c-08df186c4a49",
       "title": "10 og 15m",
       "startDate": "2026-12-16T15:20:00",
@@ -5553,6 +5924,60 @@
       "applicationType": 2,
       "registrationStartDate": "2026-11-12T15:00:00",
       "registrationEndDate": "2026-12-15T19:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "5057e308-1022-4f1b-9296-08df2ea00c3b",
+      "title": "OPK Standard",
+      "startDate": "2026-12-18T16:00:00",
+      "endDate": "2026-12-18T16:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-28T20:00:00",
+      "registrationEndDate": "2026-12-18T15:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "bcbba9ea-5a51-4926-9297-08df2ea00c3b",
+      "title": "OPK Hurtig F/G",
+      "startDate": "2026-12-18T17:00:00",
+      "endDate": "2026-12-18T17:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "c8a61bf8-60ec-46dd-8404-08daf16c934e",
+      "facilityName": "Løvenskioldbanen -- Pistol #3",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-28T20:00:00",
+      "registrationEndDate": "2026-12-18T16:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "68530e40-62cb-4932-9298-08df2ea00c3b",
+      "title": "OPK Luft 60/40",
+      "startDate": "2026-12-20T11:00:00",
+      "endDate": "2026-12-20T11:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "ba027343-7262-46b0-3416-08df18990731",
+      "facilityName": "Miniatyrbanen 25/10m",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-11-11T20:00:00",
+      "registrationEndDate": "2026-12-20T10:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
@@ -5576,7 +6001,7 @@
     },
     {
       "id": "e59b8a58-0436-4490-fbd0-08df1cc594a2",
-      "title": "10m Jul",
+      "title": "10m Jul KM Akershus pistol/rifle",
       "startDate": "2026-12-30T14:00:00",
       "endDate": "2026-12-30T14:00:00",
       "organizationId": "17a1cb61-e800-483c-43c7-08d87a883fce",
