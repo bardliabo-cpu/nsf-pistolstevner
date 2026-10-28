@@ -5,12 +5,12 @@ on:
   workflow_dispatch:
     inputs:
       test_notification:
-        description: "Send testvarsel som GitHub Issue (uten falske stevner)"
+        description: "Send testvarsel som GitHub Issue"
         type: boolean
         required: false
         default: false
   schedule:
-    - cron: "15 5 * * *"
+    - cron: '15 5 * * *'
 
 permissions:
   contents: write
@@ -27,45 +27,134 @@ jobs:
       - name: Hent repository
         uses: actions/checkout@v4
 
-      - name: Hent ferske NSF-data til midlertidig fil
+      - name: Hent ferske NSF-data
         run: |
           curl --fail --silent --show-error --retry 3 --max-time 90 \
-            "https://nsf-pistolstevner.bard-liabo.workers.dev/" \
+            'https://nsf-pistolstevner.bard-liabo.workers.dev/' \
             -o incoming.json
 
-      - name: Valider, sammenlign og generer filer
+      - name: Valider og sammenlign data
         run: python scripts/build.py
 
-      - name: Lagre nye data
+      - name: Lagre resultatfiler
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add competitions.json current.json changes.json index.html
           if git diff --cached --quiet; then
-            echo "Ingen filendringer."
+            echo 'Ingen filendringer.'
           else
-            git commit -m "Oppdater NSF pistolstevner"
+            git commit -m 'Oppdater NSF pistolstevner'
             git push
           fi
 
-      - name: Opprett GitHub issue når stevner er endret
+      - name: Lag e-postvennlige rapporter
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          tz = ZoneInfo('Europe/Oslo')
+          current = json.loads(Path('current.json').read_text(encoding='utf-8'))
+          changes = json.loads(Path('changes.json').read_text(encoding='utf-8'))
+
+          def local_time(s):
+              d = datetime.fromisoformat(s.replace('Z', '+00:00'))
+              if d.tzinfo is None:
+                  d = d.replace(tzinfo=tz)
+              else:
+                  d = d.astimezone(tz)
+              return d.strftime('%d.%m.%Y kl. %H:%M')
+
+          lines = [
+              '@bardliabo-cpu',
+              '',
+              '## Pistolstevner – Oslo og Akershus',
+              f"**Periode:** {current['windowStart']} til {current['windowEnd']} (begge dager medregnet)",
+              f"**Oppdatert fra NSF:** {local_time(current['generatedAt'])}",
+              f"**Aktive stevner:** {current['count']}",
+              ''
+          ]
+
+          if not current['competitions']:
+              lines.append('Ingen aktive pistolstevner i denne perioden.')
+          else:
+              for c in current['competitions']:
+                  lines.append(
+                      f"- **{local_time(c['startDate'])}** – "
+                      f"{c.get('title') or 'Uten navn'} | "
+                      f"{c.get('organizationName') or 'Ukjent arrangør'} | "
+                      f"{c.get('facilityName') or 'Ukjent anlegg'} | "
+                      f"{c.get('competitionTypeName') or 'Ukjent type'} | "
+                      f"NSF-ID: `{c['id']}`"
+                  )
+
+          lines += [
+              '',
+              'Kilde: Norges Sportsskytterforbund / SkytterAdmin.',
+              'Oversikt: https://bardliabo-cpu.github.io/nsf-pistolstevner/'
+          ]
+
+          Path('daily-issue.md').write_text(
+              '\n'.join(lines) + '\n', encoding='utf-8'
+          )
+
+          change_lines = [
+              '@bardliabo-cpu',
+              '',
+              '## Nye eller endrede NSF-stevner',
+              ''
+          ]
+
+          for x in changes['changes']:
+              change_lines.append(
+                  f"- **{x['event']}** – "
+                  f"{local_time(x['startDate'])}: "
+                  f"{x.get('title') or 'Uten navn'} "
+                  f"({x.get('organizationName') or 'Ukjent arrangør'}), "
+                  f"ID `{x['id']}`"
+              )
+              for field, vals in x.get('fields', {}).items():
+                  change_lines.append(
+                      f"  - {field}: {vals.get('before')} → {vals.get('after')}"
+                  )
+
+          change_lines += ['', 'Kilde: NSF / SkytterAdmin.']
+
+          Path('changes-issue.md').write_text(
+              '\n'.join(change_lines) + '\n', encoding='utf-8'
+          )
+          PY
+
+      - name: Varsle om nye, endrede eller avlyste stevner
         if: success()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "$(cat has_changes.txt)" -gt 0 ]; then
             gh issue create \
-              --title "NSF pistolstevner: $(cat has_changes.txt) endring(er) $(date -u +%Y-%m-%d)" \
-              --body-file issue.md
+              --title "NSF: $(cat has_changes.txt) endring(er) $(date -u +%Y-%m-%d)" \
+              --body-file changes-issue.md
           else
-            echo "Ingen nye eller endrede kommende stevner."
+            echo 'Ingen endringer å varsle.'
           fi
 
-      - name: Send testvarsel som GitHub Issue
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.test_notification == true }}
+      - name: Send daglig oversikt over neste 14 dager
+        if: ${{ success() && github.event_name == 'schedule' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create \
-            --title "TEST – NSF pistolstevner – GitHub-varsling" \
-            --body "Dette er et TESTVARSEL fra GitHub Actions, ikke et faktisk stevne. @bardliabo-cpu Kontroller om du mottar e-post. Testen har ikke endret NSF-data eller changes.json."
+            --title "NSF: 14-dagersoversikt $(TZ=Europe/Oslo date +%Y-%m-%d)" \
+            --body-file daily-issue.md
+
+      - name: Send testvarsel
+        if: ${{ success() && github.event_name == 'workflow_dispatch' && inputs.test_notification == true }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title 'TEST – NSF pistolstevner – GitHub-varsling' \
+            --body 'TESTVARSEL (ikke et faktisk stevne). @bardliabo-cpu Kontroller at GitHub sender e-post.'
