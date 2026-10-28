@@ -1,7 +1,14 @@
+
 name: Oppdater NSF pistolstevner
 
 on:
   workflow_dispatch:
+    inputs:
+      test_notification:
+        description: "Send testvarsel som GitHub Issue (uten falske stevner)"
+        type: boolean
+        required: false
+        default: false
   schedule:
     - cron: "15 5 * * *"
 
@@ -53,3 +60,12 @@ jobs:
           else
             echo "Ingen nye eller endrede kommende stevner."
           fi
+
+      - name: Send testvarsel som GitHub Issue
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.test_notification == true }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "TEST – NSF pistolstevner – GitHub-varsling" \
+            --body "Dette er et TESTVARSEL fra GitHub Actions, ikke et faktisk stevne. @bardliabo-cpu Kontroller om du mottar e-post. Testen har ikke endret NSF-data eller changes.json."
