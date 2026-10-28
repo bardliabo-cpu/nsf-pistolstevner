@@ -1,7 +1,6 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-10-28T12:16:52.215Z",
+  "generatedAt": "2026-10-28T13:08:03.224Z",
   "windowStart": "2026-10-28",
   "windowEnd": "2026-11-11",
   "count": 10,
@@ -97,24 +96,6 @@
       "hasResult": false
     },
     {
-      "id": "acc452f3-f446-47c1-fbaf-08df1cc594a2",
-      "title": "OPK Luft 3A",
-      "startDate": "2026-11-08T11:00:00",
-      "endDate": "2026-11-08T11:00:00",
-      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
-      "organizationName": "Oslo Pistolklubb",
-      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
-      "facilityId": "ba027343-7262-46b0-3416-08df18990731",
-      "facilityName": "Miniatyrbanen 25/10m",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 2,
-      "registrationStartDate": "2026-09-27T18:00:00",
-      "registrationEndDate": "2026-11-08T10:00:00",
-      "hasPendingChangeRequests": false,
-      "hasResult": false
-    },
-    {
       "id": "7ce406c5-6013-45fc-205f-08dec6c25b7d",
       "title": "Luft 60/40 Åpent stevne - KB for BPK",
       "startDate": "2026-11-08T11:00:00",
@@ -129,6 +110,24 @@
       "applicationType": 0,
       "registrationStartDate": null,
       "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "acc452f3-f446-47c1-fbaf-08df1cc594a2",
+      "title": "OPK Luft 3A",
+      "startDate": "2026-11-08T11:00:00",
+      "endDate": "2026-11-08T11:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "ba027343-7262-46b0-3416-08df18990731",
+      "facilityName": "Miniatyrbanen 25/10m",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-09-27T18:00:00",
+      "registrationEndDate": "2026-11-08T10:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
