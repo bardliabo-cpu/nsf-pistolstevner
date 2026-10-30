@@ -81,15 +81,20 @@ jobs:
           if not current['competitions']:
               lines.append('Ingen aktive pistolstevner i denne perioden.')
           else:
+
               for c in current['competitions']:
+                  stevne_url = (
+                      "https://app.skyting.no/p/c/"
+                      f"{c['id']}/details"
+                  )
                   lines.append(
                       f"- **{local_time(c['startDate'])}** – "
-                      f"{c.get('title') or 'Uten navn'} | "
+                      f"[{c.get('title') or 'Uten navn'}]({stevne_url}) | "
                       f"{c.get('organizationName') or 'Ukjent arrangør'} | "
                       f"{c.get('facilityName') or 'Ukjent anlegg'} | "
-                      f"{c.get('competitionTypeName') or 'Ukjent type'} | "
-                      f"NSF-ID: `{c['id']}`"
+                      f"{c.get('competitionTypeName') or 'Ukjent type'}"
                   )
+
 
           lines += [
               '',
