@@ -1,36 +1,22 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-10-31T10:54:10.237Z",
+  "generatedAt": "2026-11-01T11:49:03.216Z",
   "baselineCreated": false,
-  "count": 4,
+  "count": 2,
   "changes": [
     {
       "event": "nytt_stevne",
-      "id": "1a0b9650-e156-426c-825a-08df358e8478",
-      "title": "NAIS, Lapua Ungdomscup",
-      "startDate": "2026-11-04T19:00:00",
-      "organizationName": "Bodung Pistolklubb"
+      "id": "2e8e8de6-ddfa-46a6-8232-08df358e8478",
+      "title": "OPK - Norgesfelt - Romjulsstevne (1) på Løvenskiold",
+      "startDate": "2026-12-28T08:00:00",
+      "organizationName": "Oslo Pistolklubb"
     },
     {
       "event": "nytt_stevne",
-      "id": "9e19c88f-2761-4572-825b-08df358e8478",
-      "title": "Hurtig Fin, Vinterserien",
-      "startDate": "2026-11-14T09:00:00",
-      "organizationName": "Bodung Pistolklubb"
-    },
-    {
-      "event": "nytt_stevne",
-      "id": "35b9b1f4-0a41-44f4-825d-08df358e8478",
-      "title": "NAIS, Lapua Ungdomscup",
-      "startDate": "2026-11-25T19:00:00",
-      "organizationName": "Bodung Pistolklubb"
-    },
-    {
-      "event": "nytt_stevne",
-      "id": "ba2b497b-4f0a-4af9-825c-08df358e8478",
-      "title": "Standard med KM",
-      "startDate": "2026-11-28T09:00:00",
-      "organizationName": "Bodung Pistolklubb"
+      "id": "cfb57801-99e6-41b0-8233-08df358e8478",
+      "title": "OPK - Norgesfelt - Romjulsstevne (2) på Løvenskiold",
+      "startDate": "2026-12-28T08:00:00",
+      "organizationName": "Oslo Pistolklubb"
     }
   ]
 }
