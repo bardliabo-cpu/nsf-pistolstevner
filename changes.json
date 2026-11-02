@@ -1,21 +1,14 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-01T11:49:03.216Z",
+  "generatedAt": "2026-11-02T13:27:25.204Z",
   "baselineCreated": false,
-  "count": 2,
+  "count": 1,
   "changes": [
     {
       "event": "nytt_stevne",
-      "id": "2e8e8de6-ddfa-46a6-8232-08df358e8478",
-      "title": "OPK - Norgesfelt - Romjulsstevne (1) på Løvenskiold",
-      "startDate": "2026-12-28T08:00:00",
-      "organizationName": "Oslo Pistolklubb"
-    },
-    {
-      "event": "nytt_stevne",
-      "id": "cfb57801-99e6-41b0-8233-08df358e8478",
-      "title": "OPK - Norgesfelt - Romjulsstevne (2) på Løvenskiold",
-      "startDate": "2026-12-28T08:00:00",
+      "id": "198d6f15-5ffc-4583-403a-08df380c8fb2",
+      "title": "Felt FGMRSPSR Løvenskioldbanen",
+      "startDate": "2027-05-30T07:00:00",
       "organizationName": "Oslo Pistolklubb"
     }
   ]
