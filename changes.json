@@ -1,15 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-02T13:27:25.204Z",
+  "generatedAt": "2026-11-03T12:45:26.793Z",
   "baselineCreated": false,
-  "count": 1,
-  "changes": [
-    {
-      "event": "nytt_stevne",
-      "id": "198d6f15-5ffc-4583-403a-08df380c8fb2",
-      "title": "Felt FGMRSPSR Løvenskioldbanen",
-      "startDate": "2027-05-30T07:00:00",
-      "organizationName": "Oslo Pistolklubb"
-    }
-  ]
+  "count": 0,
+  "changes": []
 }

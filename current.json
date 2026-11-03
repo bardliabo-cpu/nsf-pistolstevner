@@ -1,9 +1,9 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-02T13:27:25.204Z",
-  "windowStart": "2026-11-02",
-  "windowEnd": "2026-11-16",
-  "count": 9,
+  "generatedAt": "2026-11-03T12:45:26.793Z",
+  "windowStart": "2026-11-03",
+  "windowEnd": "2026-11-17",
+  "count": 10,
   "competitions": [
     {
       "id": "1a0b9650-e156-426c-825a-08df358e8478",
@@ -164,6 +164,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-11-01T11:00:00",
       "registrationEndDate": "2026-11-13T17:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "036f2058-8079-41fa-ca30-08dedc5d2680",
+      "title": "OPK Hurtigpistol Grov KM Oslo",
+      "startDate": "2026-11-17T15:00:00",
+      "endDate": "2026-11-17T15:00:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "12aa7d4c-6c63-4802-78bf-08d904e2669b",
+      "facilityName": "Ekeberg Skytebane",
+      "competitionTypeName": "Åpent stevne m/KM",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-07-12T10:00:00",
+      "registrationEndDate": "2026-11-16T22:59:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     }
