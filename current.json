@@ -1,28 +1,10 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-04T12:57:52.651Z",
-  "windowStart": "2026-11-04",
-  "windowEnd": "2026-11-18",
-  "count": 11,
+  "generatedAt": "2026-11-05T13:08:53.254Z",
+  "windowStart": "2026-11-05",
+  "windowEnd": "2026-11-19",
+  "count": 10,
   "competitions": [
-    {
-      "id": "1a0b9650-e156-426c-825a-08df358e8478",
-      "title": "NAIS, Lapua Ungdomscup",
-      "startDate": "2026-11-04T19:00:00",
-      "endDate": "2026-11-04T19:00:00",
-      "organizationId": "585157f1-6245-484a-43c9-08d87a883fce",
-      "organizationName": "Bodung Pistolklubb",
-      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
-      "facilityId": "cb646ed6-447a-4cb6-aedc-08dd529b53b7",
-      "facilityName": "Neshallen",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 0,
-      "registrationStartDate": null,
-      "registrationEndDate": null,
-      "hasPendingChangeRequests": false,
-      "hasResult": false
-    },
     {
       "id": "7629b39d-462f-4208-bc51-08df186c4a49",
       "title": "10 og 15 meter",
