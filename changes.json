@@ -1,35 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-06T12:54:41.702Z",
+  "generatedAt": "2026-11-07T11:41:53.653Z",
   "baselineCreated": false,
-  "count": 3,
-  "changes": [
-    {
-      "event": "endret",
-      "id": "7629b39d-462f-4208-bc51-08df186c4a49",
-      "title": "10 og 15 meter",
-      "startDate": "2026-11-07T08:30:00",
-      "organizationName": "Kisen Sportsskytterklubb",
-      "fields": {
-        "registrationEndDate": {
-          "before": "2026-11-06T11:00:00",
-          "after": "2026-11-06T22:00:00"
-        }
-      }
-    },
-    {
-      "event": "nytt_stevne",
-      "id": "61b15cc6-1331-4032-4175-08df380c8fb2",
-      "title": "OKTS Norgesfelt I",
-      "startDate": "2026-11-12T15:30:00",
-      "organizationName": "Oslo Kommunale Tjenestemenns Skytterlag"
-    },
-    {
-      "event": "nytt_stevne",
-      "id": "c96940b9-e80b-4d4d-4176-08df380c8fb2",
-      "title": "OKTS Norgesfelt II",
-      "startDate": "2026-11-12T15:30:00",
-      "organizationName": "Oslo Kommunale Tjenestemenns Skytterlag"
-    }
-  ]
+  "count": 0,
+  "changes": []
 }
