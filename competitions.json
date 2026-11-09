@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-11-08T11:54:56.696Z",
+  "generatedAt": "2026-11-09T13:51:08.657Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,14 +10,14 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 356,
+  "count": 362,
   "statistics": {
     "Oslo": {
       "count": 189,
       "pages": 1
     },
     "Akershus": {
-      "count": 167,
+      "count": 173,
       "pages": 1
     },
     "apiRequests": 2
@@ -5568,6 +5568,24 @@
       "hasResult": true
     },
     {
+      "id": "228ef813-6218-4c05-c31d-08de25f439cc",
+      "title": "luft inne",
+      "startDate": "2026-11-08T10:00:00",
+      "endDate": "2026-11-08T10:00:00",
+      "organizationId": "4df68d65-a287-447a-43cb-08d87a883fce",
+      "organizationName": "Eidsvoll Sportsskyttere",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "dad42a15-5036-4a6e-954f-08dbffae3ddb",
+      "facilityName": "Vidtjennet",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": true
+    },
+    {
       "id": "acc452f3-f446-47c1-fbaf-08df1cc594a2",
       "title": "OPK Luft 3A",
       "startDate": "2026-11-08T11:00:00",
@@ -5583,7 +5601,7 @@
       "registrationStartDate": "2026-09-27T18:00:00",
       "registrationEndDate": "2026-11-08T10:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "7ce406c5-6013-45fc-205f-08dec6c25b7d",
@@ -5601,7 +5619,7 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "d84110ed-07a2-49cd-0542-08ded1d5c232",
@@ -5617,7 +5635,7 @@
       "status": 1,
       "applicationType": 2,
       "registrationStartDate": "2026-06-28T09:00:00",
-      "registrationEndDate": "2026-11-08T22:59:00",
+      "registrationEndDate": "2026-11-08T17:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
@@ -5847,6 +5865,24 @@
       "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
       "facilityId": "cb646ed6-447a-4cb6-aedc-08dd529b53b7",
       "facilityName": "Neshallen",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "b809f50c-aaa5-4790-41a5-08df380c8fb2",
+      "title": "Lapua ungdomscup #2 - BPK",
+      "startDate": "2026-11-27T16:15:00",
+      "endDate": "2026-11-27T16:15:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "33a78356-c5dd-4118-2a7a-08d87f0dba3b",
+      "facilityName": "Løvenskiold Pistolbane",
       "competitionTypeName": "Åpent stevne",
       "status": 1,
       "applicationType": 0,
@@ -6324,6 +6360,24 @@
       "hasResult": false
     },
     {
+      "id": "03d7bff1-3e87-4c61-41a6-08df380c8fb2",
+      "title": "Lapua Ungdomscup #3 - BPK",
+      "startDate": "2027-01-22T16:15:00",
+      "endDate": "2027-01-22T16:15:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "33a78356-c5dd-4118-2a7a-08d87f0dba3b",
+      "facilityName": "Løvenskiold Pistolbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
       "id": "87853daa-ce4e-40a1-bc4e-08df186c4a49",
       "title": "10 og 15m",
       "startDate": "2027-01-27T15:20:00",
@@ -6360,6 +6414,24 @@
       "hasResult": false
     },
     {
+      "id": "ecd0b011-5102-4525-41a7-08df380c8fb2",
+      "title": "Lapua Ungdomscup #4 - BPK",
+      "startDate": "2027-02-19T16:15:00",
+      "endDate": "2027-02-19T16:15:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "33a78356-c5dd-4118-2a7a-08d87f0dba3b",
+      "facilityName": "Løvenskiold Pistolbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
       "id": "fe8d9ec1-6c26-413b-bc52-08df186c4a49",
       "title": "10 og 15m",
       "startDate": "2027-02-27T08:30:00",
@@ -6392,6 +6464,42 @@
       "applicationType": 2,
       "registrationStartDate": "2027-02-01T11:00:00",
       "registrationEndDate": "2027-03-05T11:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "c825360a-a779-42a1-41a8-08df380c8fb2",
+      "title": "Lapua ungdomscup #5 - BPK",
+      "startDate": "2027-03-19T16:15:00",
+      "endDate": "2027-03-19T16:15:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "33a78356-c5dd-4118-2a7a-08d87f0dba3b",
+      "facilityName": "Løvenskiold Pistolbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "81017e14-1f8c-441c-41a9-08df380c8fb2",
+      "title": "Lapua ungdomscup #xtra - BPK",
+      "startDate": "2027-04-02T15:15:00",
+      "endDate": "2027-04-02T15:15:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "33a78356-c5dd-4118-2a7a-08d87f0dba3b",
+      "facilityName": "Løvenskiold Pistolbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
