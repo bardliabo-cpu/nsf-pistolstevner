@@ -1,55 +1,14 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-09T13:51:08.657Z",
+  "generatedAt": "2026-11-10T13:26:11.662Z",
   "baselineCreated": false,
-  "count": 6,
+  "count": 1,
   "changes": [
     {
-      "event": "endret",
-      "id": "d84110ed-07a2-49cd-0542-08ded1d5c232",
-      "title": "OKTS Vinterserien runde 2",
-      "startDate": "2026-11-09T16:00:00",
-      "organizationName": "Oslo Kommunale Tjenestemenns Skytterlag",
-      "fields": {
-        "registrationEndDate": {
-          "before": "2026-11-08T22:59:00",
-          "after": "2026-11-08T17:00:00"
-        }
-      }
-    },
-    {
       "event": "nytt_stevne",
-      "id": "b809f50c-aaa5-4790-41a5-08df380c8fb2",
-      "title": "Lapua ungdomscup #2 - BPK",
-      "startDate": "2026-11-27T16:15:00",
-      "organizationName": "Bærum Pistolklubb"
-    },
-    {
-      "event": "nytt_stevne",
-      "id": "03d7bff1-3e87-4c61-41a6-08df380c8fb2",
-      "title": "Lapua Ungdomscup #3 - BPK",
-      "startDate": "2027-01-22T16:15:00",
-      "organizationName": "Bærum Pistolklubb"
-    },
-    {
-      "event": "nytt_stevne",
-      "id": "ecd0b011-5102-4525-41a7-08df380c8fb2",
-      "title": "Lapua Ungdomscup #4 - BPK",
-      "startDate": "2027-02-19T16:15:00",
-      "organizationName": "Bærum Pistolklubb"
-    },
-    {
-      "event": "nytt_stevne",
-      "id": "c825360a-a779-42a1-41a8-08df380c8fb2",
-      "title": "Lapua ungdomscup #5 - BPK",
-      "startDate": "2027-03-19T16:15:00",
-      "organizationName": "Bærum Pistolklubb"
-    },
-    {
-      "event": "nytt_stevne",
-      "id": "81017e14-1f8c-441c-41a9-08df380c8fb2",
-      "title": "Lapua ungdomscup #xtra - BPK",
-      "startDate": "2027-04-02T15:15:00",
+      "id": "11f9bd03-558a-47b9-41bf-08df380c8fb2",
+      "title": "Luft 60/40 kl. 1200",
+      "startDate": "2026-11-14T11:00:00",
       "organizationName": "Bærum Pistolklubb"
     }
   ]

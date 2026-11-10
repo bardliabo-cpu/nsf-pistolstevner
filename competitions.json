@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-11-09T13:51:08.657Z",
+  "generatedAt": "2026-11-10T13:26:11.662Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,14 +10,14 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 362,
+  "count": 363,
   "statistics": {
     "Oslo": {
       "count": 189,
       "pages": 1
     },
     "Akershus": {
-      "count": 173,
+      "count": 174,
       "pages": 1
     },
     "apiRequests": 2
@@ -5726,6 +5726,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-11-01T11:00:00",
       "registrationEndDate": "2026-11-13T17:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "11f9bd03-558a-47b9-41bf-08df380c8fb2",
+      "title": "Luft 60/40 kl. 1200",
+      "startDate": "2026-11-14T11:00:00",
+      "endDate": "2026-11-14T11:00:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
+      "facilityName": "Kolsås Luftbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
