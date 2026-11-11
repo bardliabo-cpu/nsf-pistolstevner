@@ -1,15 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-10T13:26:11.662Z",
+  "generatedAt": "2026-11-11T12:41:29.158Z",
   "baselineCreated": false,
-  "count": 1,
-  "changes": [
-    {
-      "event": "nytt_stevne",
-      "id": "11f9bd03-558a-47b9-41bf-08df380c8fb2",
-      "title": "Luft 60/40 kl. 1200",
-      "startDate": "2026-11-14T11:00:00",
-      "organizationName": "Bærum Pistolklubb"
-    }
-  ]
+  "count": 0,
+  "changes": []
 }
