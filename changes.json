@@ -1,7 +1,29 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-11T12:41:29.158Z",
+  "generatedAt": "2026-11-12T13:43:49.015Z",
   "baselineCreated": false,
-  "count": 0,
-  "changes": []
+  "count": 3,
+  "changes": [
+    {
+      "event": "nytt_stevne",
+      "id": "1e7560b4-6f56-4c50-9e13-08df4087cc06",
+      "title": "OKTS Nais Fin/Grov",
+      "startDate": "2026-11-16T14:45:00",
+      "organizationName": "Oslo Kommunale Tjenestemenns Skytterlag"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "e9be9da6-41d2-44c2-41c4-08df380c8fb2",
+      "title": "OPK Standard",
+      "startDate": "2026-11-20T15:30:00",
+      "organizationName": "Oslo Pistolklubb"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "19947175-9d81-4287-9e14-08df4087cc06",
+      "title": "OPK Standard",
+      "startDate": "2026-12-11T15:30:00",
+      "organizationName": "Oslo Pistolklubb"
+    }
+  ]
 }

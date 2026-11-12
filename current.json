@@ -1,9 +1,9 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-11T12:41:29.158Z",
-  "windowStart": "2026-11-11",
-  "windowEnd": "2026-11-25",
-  "count": 12,
+  "generatedAt": "2026-11-12T13:43:49.015Z",
+  "windowStart": "2026-11-12",
+  "windowEnd": "2026-11-26",
+  "count": 14,
   "competitions": [
     {
       "id": "61b15cc6-1331-4032-4175-08df380c8fb2",
@@ -78,6 +78,24 @@
       "hasResult": false
     },
     {
+      "id": "1e7560b4-6f56-4c50-9e13-08df4087cc06",
+      "title": "OKTS Nais Fin/Grov",
+      "startDate": "2026-11-16T14:45:00",
+      "endDate": "2026-11-16T14:45:00",
+      "organizationId": "5562cde0-eb75-4da5-43d6-08d87a883fce",
+      "organizationName": "Oslo Kommunale Tjenestemenns Skytterlag",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "979683da-9382-4fa1-78c3-08d904e2669b",
+      "facilityName": "Ekeberg Skytebane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-11-12T06:00:00",
+      "registrationEndDate": "2026-11-15T20:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
       "id": "036f2058-8079-41fa-ca30-08dedc5d2680",
       "title": "OPK Hurtigpistol Grov KM Oslo",
       "startDate": "2026-11-17T15:00:00",
@@ -110,6 +128,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-10-15T14:00:00",
       "registrationEndDate": "2026-11-17T19:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "e9be9da6-41d2-44c2-41c4-08df380c8fb2",
+      "title": "OPK Standard",
+      "startDate": "2026-11-20T15:30:00",
+      "endDate": "2026-11-20T15:30:00",
+      "organizationId": "3c9684d9-2977-461f-43d7-08d87a883fce",
+      "organizationName": "Oslo Pistolklubb",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "e05744ef-c2c3-4013-78c4-08d904e2669b",
+      "facilityName": "Ekeberg Skytebane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-11-10T07:00:00",
+      "registrationEndDate": "2026-11-19T11:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
