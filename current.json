@@ -1,9 +1,9 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-13T13:03:48.855Z",
-  "windowStart": "2026-11-13",
-  "windowEnd": "2026-11-27",
-  "count": 13,
+  "generatedAt": "2026-11-14T12:08:14.905Z",
+  "windowStart": "2026-11-14",
+  "windowEnd": "2026-11-28",
+  "count": 15,
   "competitions": [
     {
       "id": "9e19c88f-2761-4572-825b-08df358e8478",
@@ -21,7 +21,7 @@
       "registrationStartDate": "2026-11-01T11:00:00",
       "registrationEndDate": "2026-11-13T17:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "11f9bd03-558a-47b9-41bf-08df380c8fb2",
@@ -236,6 +236,42 @@
       "applicationType": 0,
       "registrationStartDate": null,
       "registrationEndDate": null,
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "27573eda-e7ac-4e6c-fbca-08df1cc594a2",
+      "title": "10m Vurderingsstevne",
+      "startDate": "2026-11-28T09:00:00",
+      "endDate": "2026-11-28T09:00:00",
+      "organizationId": "17a1cb61-e800-483c-43c7-08d87a883fce",
+      "organizationName": "Kisen Sportsskytterklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "e4d458a2-7372-4641-91a4-08d87c38603e",
+      "facilityName": "Alfhallen",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-10-01T10:00:00",
+      "registrationEndDate": "2026-11-27T15:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "ba2b497b-4f0a-4af9-825c-08df358e8478",
+      "title": "Standard med KM",
+      "startDate": "2026-11-28T09:00:00",
+      "endDate": "2026-11-28T09:00:00",
+      "organizationId": "585157f1-6245-484a-43c9-08d87a883fce",
+      "organizationName": "Bodung Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "cb646ed6-447a-4cb6-aedc-08dd529b53b7",
+      "facilityName": "Neshallen",
+      "competitionTypeName": "Åpent stevne m/KM",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-11-01T11:00:00",
+      "registrationEndDate": "2026-11-27T17:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     }
