@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-11-14T12:08:14.905Z",
+  "generatedAt": "2026-11-15T12:41:54.214Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,14 +10,14 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 366,
+  "count": 367,
   "statistics": {
     "Oslo": {
       "count": 192,
       "pages": 1
     },
     "Akershus": {
-      "count": 174,
+      "count": 175,
       "pages": 1
     },
     "apiRequests": 2
@@ -5745,7 +5745,7 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "1e7560b4-6f56-4c50-9e13-08df4087cc06",
@@ -5798,6 +5798,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-10-15T14:00:00",
       "registrationEndDate": "2026-11-17T19:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "dc03d9d1-3a3e-4a64-9e22-08df4087cc06",
+      "title": "T96 FSPSR - Kun .22",
+      "startDate": "2026-11-18T15:00:00",
+      "endDate": "2026-11-18T15:00:00",
+      "organizationId": "585157f1-6245-484a-43c9-08d87a883fce",
+      "organizationName": "Bodung Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "cb646ed6-447a-4cb6-aedc-08dd529b53b7",
+      "facilityName": "Neshallen",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 2,
+      "registrationStartDate": "2026-11-14T10:00:00",
+      "registrationEndDate": "2026-11-18T14:59:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },

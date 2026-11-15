@@ -1,7 +1,15 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-14T12:08:14.905Z",
+  "generatedAt": "2026-11-15T12:41:54.214Z",
   "baselineCreated": false,
-  "count": 0,
-  "changes": []
+  "count": 1,
+  "changes": [
+    {
+      "event": "nytt_stevne",
+      "id": "dc03d9d1-3a3e-4a64-9e22-08df4087cc06",
+      "title": "T96 FSPSR - Kun .22",
+      "startDate": "2026-11-18T15:00:00",
+      "organizationName": "Bodung Pistolklubb"
+    }
+  ]
 }
