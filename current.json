@@ -1,8 +1,8 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-15T12:41:54.214Z",
-  "windowStart": "2026-11-15",
-  "windowEnd": "2026-11-29",
+  "generatedAt": "2026-11-16T13:34:55.130Z",
+  "windowStart": "2026-11-16",
+  "windowEnd": "2026-11-30",
   "count": 15,
   "competitions": [
     {
@@ -19,7 +19,7 @@
       "status": 1,
       "applicationType": 2,
       "registrationStartDate": "2026-11-12T06:00:00",
-      "registrationEndDate": "2026-11-15T20:00:00",
+      "registrationEndDate": "2026-11-15T18:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
