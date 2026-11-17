@@ -1,21 +1,80 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-16T13:34:55.130Z",
+  "generatedAt": "2026-11-17T14:19:45.998Z",
   "baselineCreated": false,
-  "count": 1,
+  "count": 6,
   "changes": [
     {
+      "event": "forsvunnet_fra_kilden",
+      "id": "a79a436a-05db-45d0-bc4c-08df186c4a49",
+      "title": "10 og 15m",
+      "startDate": "2026-12-16T15:20:00",
+      "organizationName": "Kisen Sportsskytterklubb"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "c468640c-8b8e-4711-7a24-08df449c1224",
+      "title": "10 m",
+      "startDate": "2026-12-16T15:20:00",
+      "organizationName": "Kisen Sportsskytterklubb"
+    },
+    {
       "event": "endret",
-      "id": "1e7560b4-6f56-4c50-9e13-08df4087cc06",
-      "title": "OKTS Nais Fin/Grov",
-      "startDate": "2026-11-16T14:45:00",
-      "organizationName": "Oslo Kommunale Tjenestemenns Skytterlag",
+      "id": "e59b8a58-0436-4490-fbd0-08df1cc594a2",
+      "title": "10m Åpent med KM Akershus pistol/rifle",
+      "startDate": "2026-12-30T15:00:00",
+      "organizationName": "Kisen Sportsskytterklubb",
       "fields": {
+        "title": {
+          "before": "10m Jul KM Akershus pistol/rifle",
+          "after": "10m Åpent med KM Akershus pistol/rifle"
+        },
+        "startDate": {
+          "before": "2026-12-30T14:00:00",
+          "after": "2026-12-30T15:00:00"
+        },
+        "endDate": {
+          "before": "2026-12-30T14:00:00",
+          "after": "2026-12-30T15:00:00"
+        },
         "registrationEndDate": {
-          "before": "2026-11-15T20:00:00",
-          "after": "2026-11-15T18:00:00"
+          "before": "2026-12-29T11:00:00",
+          "after": "2026-12-29T21:00:00"
         }
       }
+    },
+    {
+      "event": "endret",
+      "id": "87853daa-ce4e-40a1-bc4e-08df186c4a49",
+      "title": "10m ",
+      "startDate": "2027-01-27T15:20:00",
+      "organizationName": "Kisen Sportsskytterklubb",
+      "fields": {
+        "title": {
+          "before": "10 og 15m",
+          "after": "10m "
+        }
+      }
+    },
+    {
+      "event": "endret",
+      "id": "fe8d9ec1-6c26-413b-bc52-08df186c4a49",
+      "title": "10m Pistol og rifle",
+      "startDate": "2027-02-27T08:30:00",
+      "organizationName": "Kisen Sportsskytterklubb",
+      "fields": {
+        "title": {
+          "before": "10 og 15m",
+          "after": "10m Pistol og rifle"
+        }
+      }
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "e0f7509f-a824-47d7-7a29-08df449c1224",
+      "title": "10 m rifle og pistol",
+      "startDate": "2027-04-21T14:30:00",
+      "organizationName": "Kisen Sportsskytterklubb"
     }
   ]
 }

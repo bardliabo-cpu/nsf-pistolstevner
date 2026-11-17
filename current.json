@@ -1,28 +1,10 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-16T13:34:55.130Z",
-  "windowStart": "2026-11-16",
-  "windowEnd": "2026-11-30",
-  "count": 15,
+  "generatedAt": "2026-11-17T14:19:45.998Z",
+  "windowStart": "2026-11-17",
+  "windowEnd": "2026-12-01",
+  "count": 14,
   "competitions": [
-    {
-      "id": "1e7560b4-6f56-4c50-9e13-08df4087cc06",
-      "title": "OKTS Nais Fin/Grov",
-      "startDate": "2026-11-16T14:45:00",
-      "endDate": "2026-11-16T14:45:00",
-      "organizationId": "5562cde0-eb75-4da5-43d6-08d87a883fce",
-      "organizationName": "Oslo Kommunale Tjenestemenns Skytterlag",
-      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
-      "facilityId": "979683da-9382-4fa1-78c3-08d904e2669b",
-      "facilityName": "Ekeberg Skytebane",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 2,
-      "registrationStartDate": "2026-11-12T06:00:00",
-      "registrationEndDate": "2026-11-15T18:00:00",
-      "hasPendingChangeRequests": false,
-      "hasResult": false
-    },
     {
       "id": "036f2058-8079-41fa-ca30-08dedc5d2680",
       "title": "OPK Hurtigpistol Grov KM Oslo",
