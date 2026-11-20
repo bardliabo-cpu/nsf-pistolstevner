@@ -1,41 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-19T14:22:30.747Z",
+  "generatedAt": "2026-11-20T13:58:08.597Z",
   "baselineCreated": false,
-  "count": 3,
-  "changes": [
-    {
-      "event": "nytt_stevne",
-      "id": "d6634903-36eb-4025-7a4b-08df449c1224",
-      "title": "Luft 60/40 kl. 1200",
-      "startDate": "2026-11-21T11:00:00",
-      "organizationName": "Bærum Pistolklubb"
-    },
-    {
-      "event": "endret",
-      "id": "27573eda-e7ac-4e6c-fbca-08df1cc594a2",
-      "title": "10m åpent stevne ",
-      "startDate": "2026-11-28T09:00:00",
-      "organizationName": "Kisen Sportsskytterklubb",
-      "fields": {
-        "title": {
-          "before": "10m Vurderingsstevne",
-          "after": "10m åpent stevne "
-        }
-      }
-    },
-    {
-      "event": "endret",
-      "id": "e59b8a58-0436-4490-fbd0-08df1cc594a2",
-      "title": "10m Åpent med KM Akershus/Oslo pistol/rifle",
-      "startDate": "2026-12-30T15:00:00",
-      "organizationName": "Kisen Sportsskytterklubb",
-      "fields": {
-        "title": {
-          "before": "10m Åpent med KM Akershus pistol/rifle",
-          "after": "10m Åpent med KM Akershus/Oslo pistol/rifle"
-        }
-      }
-    }
-  ]
+  "count": 0,
+  "changes": []
 }
