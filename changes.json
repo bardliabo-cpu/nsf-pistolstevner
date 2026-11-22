@@ -1,14 +1,14 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-21T13:26:10.509Z",
+  "generatedAt": "2026-11-22T13:17:37.217Z",
   "baselineCreated": false,
   "count": 1,
   "changes": [
     {
       "event": "nytt_stevne",
-      "id": "1b123158-14fa-4973-c30c-08de25f439cc",
-      "title": "Diesencup",
-      "startDate": "2026-11-21T09:00:00",
+      "id": "343b3e1c-d366-4822-c31f-08de25f439cc",
+      "title": "luft inne",
+      "startDate": "2026-11-22T10:00:00",
       "organizationName": "Eidsvoll Sportsskyttere"
     }
   ]
