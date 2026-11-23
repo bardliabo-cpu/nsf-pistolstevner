@@ -1,15 +1,84 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-22T13:17:37.217Z",
+  "generatedAt": "2026-11-23T15:54:39.332Z",
   "baselineCreated": false,
-  "count": 1,
+  "count": 10,
   "changes": [
     {
+      "event": "endret",
+      "id": "27573eda-e7ac-4e6c-fbca-08df1cc594a2",
+      "title": "3A Luftpistol 60/40 Vurderingsstevne",
+      "startDate": "2026-11-28T09:00:00",
+      "organizationName": "Kisen Sportsskytterklubb",
+      "fields": {
+        "title": {
+          "before": "10m åpent stevne ",
+          "after": "3A Luftpistol 60/40 Vurderingsstevne"
+        }
+      }
+    },
+    {
       "event": "nytt_stevne",
-      "id": "343b3e1c-d366-4822-c31f-08de25f439cc",
-      "title": "luft inne",
-      "startDate": "2026-11-22T10:00:00",
-      "organizationName": "Eidsvoll Sportsskyttere"
+      "id": "d7f498db-c98f-47f3-7a59-08df449c1224",
+      "title": "NAIS OSS",
+      "startDate": "2026-11-28T15:00:00",
+      "organizationName": "Oslo Sportsskyttere"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "4611b197-25b0-4cd4-7aee-08df449c1224",
+      "title": "OPK Romjulsstevne -  Hurtig på papp #1",
+      "startDate": "2026-12-28T13:30:00",
+      "organizationName": "Oslo Pistolklubb"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "8ca14a29-f6db-4883-7aef-08df449c1224",
+      "title": "OPK Romjulsstevne - Hurtig på papp #2",
+      "startDate": "2026-12-28T15:00:00",
+      "organizationName": "Oslo Pistolklubb"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "d7c7398f-610d-43e6-7af0-08df449c1224",
+      "title": "OPK Romjulsstevne - Hurtig på papp #3",
+      "startDate": "2026-12-28T16:30:00",
+      "organizationName": "Oslo Pistolklubb"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "f26c252c-e0ec-4c37-7af1-08df449c1224",
+      "title": "OPK Romjulsstevne - Hurtig på papp #4",
+      "startDate": "2026-12-28T18:00:00",
+      "organizationName": "Oslo Pistolklubb"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "0678fb11-fd6d-4852-7af2-08df449c1224",
+      "title": " OPK Romjulsstevne - Hurtig FGSPSR #1",
+      "startDate": "2026-12-30T15:00:00",
+      "organizationName": "Oslo Pistolklubb"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "e6c6d7b8-5fbc-4add-7af3-08df449c1224",
+      "title": "OPK Romjulsstevne - Hurtig FGSPSR #2",
+      "startDate": "2026-12-30T16:00:00",
+      "organizationName": "Oslo Pistolklubb"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "13a68d18-bf08-44c0-7af4-08df449c1224",
+      "title": "OPK Romjulsstevne - Hurtig FGSPSR #3",
+      "startDate": "2026-12-30T17:00:00",
+      "organizationName": "Oslo Pistolklubb"
+    },
+    {
+      "event": "nytt_stevne",
+      "id": "7af404a8-8b67-43d1-7af5-08df449c1224",
+      "title": "OPK Romjulsstevne - Hurtig FGSPSR #4",
+      "startDate": "2026-12-30T18:00:00",
+      "organizationName": "Oslo Pistolklubb"
     }
   ]
 }
