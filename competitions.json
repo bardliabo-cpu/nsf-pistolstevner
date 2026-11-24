@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-11-23T15:54:39.332Z",
+  "generatedAt": "2026-11-24T15:48:20.444Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -10,14 +10,14 @@
       "Akershus": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a"
     }
   },
-  "count": 382,
+  "count": 384,
   "statistics": {
     "Oslo": {
-      "count": 202,
+      "count": 203,
       "pages": 2
     },
     "Akershus": {
-      "count": 180,
+      "count": 181,
       "pages": 1
     },
     "apiRequests": 3
@@ -6033,7 +6033,7 @@
       "registrationStartDate": "2026-11-18T11:00:00",
       "registrationEndDate": "2026-11-22T20:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "35b9b1f4-0a41-44f4-825d-08df358e8478",
@@ -6082,7 +6082,7 @@
       "facilityId": "e4d458a2-7372-4641-91a4-08d87c38603e",
       "facilityName": "Alfhallen",
       "competitionTypeName": "Åpent stevne",
-      "status": 1,
+      "status": 3,
       "applicationType": 2,
       "registrationStartDate": "2026-10-01T10:00:00",
       "registrationEndDate": "2026-11-27T15:00:00",
@@ -6104,6 +6104,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-11-01T11:00:00",
       "registrationEndDate": "2026-11-27T17:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "c85dd204-2fa3-45c3-7b0c-08df449c1224",
+      "title": "Luft 60/40 Åpent stevne kl 12:00",
+      "startDate": "2026-11-28T11:00:00",
+      "endDate": "2026-11-28T11:00:00",
+      "organizationId": "336da790-89e2-4b91-43b4-08d87a883fce",
+      "organizationName": "Bærum Pistolklubb",
+      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
+      "facilityId": "b324fe73-42ef-4393-2a7b-08d87f0dba3b",
+      "facilityName": "Kolsås Luftbane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 1,
+      "applicationType": 0,
+      "registrationStartDate": null,
+      "registrationEndDate": null,
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
@@ -6140,6 +6158,24 @@
       "applicationType": 2,
       "registrationStartDate": "2026-09-27T18:00:00",
       "registrationEndDate": "2026-11-29T10:00:00",
+      "hasPendingChangeRequests": false,
+      "hasResult": false
+    },
+    {
+      "id": "aa0ea112-c5e7-4ec6-7b12-08df449c1224",
+      "title": "OKTS Finpistol",
+      "startDate": "2026-11-30T14:30:00",
+      "endDate": "2026-11-30T14:30:00",
+      "organizationId": "5562cde0-eb75-4da5-43d6-08d87a883fce",
+      "organizationName": "Oslo Kommunale Tjenestemenns Skytterlag",
+      "regionOrganizationId": "52f2d358-1d50-4d41-c2ba-08d859126e0a",
+      "facilityId": "979683da-9382-4fa1-78c3-08d904e2669b",
+      "facilityName": "Ekeberg Skytebane",
+      "competitionTypeName": "Åpent stevne",
+      "status": 3,
+      "applicationType": 2,
+      "registrationStartDate": "2026-11-24T07:00:00",
+      "registrationEndDate": "2026-11-29T20:00:00",
       "hasPendingChangeRequests": false,
       "hasResult": false
     },
