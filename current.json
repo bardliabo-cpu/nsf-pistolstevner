@@ -1,28 +1,10 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-25T15:34:00.998Z",
-  "windowStart": "2026-11-25",
-  "windowEnd": "2026-12-09",
-  "count": 7,
+  "generatedAt": "2026-11-26T15:06:42.230Z",
+  "windowStart": "2026-11-26",
+  "windowEnd": "2026-12-10",
+  "count": 6,
   "competitions": [
-    {
-      "id": "35b9b1f4-0a41-44f4-825d-08df358e8478",
-      "title": "NAIS, Lapua Ungdomscup",
-      "startDate": "2026-11-25T19:00:00",
-      "endDate": "2026-11-25T19:00:00",
-      "organizationId": "585157f1-6245-484a-43c9-08d87a883fce",
-      "organizationName": "Bodung Pistolklubb",
-      "regionOrganizationId": "f3c073e8-0b7f-4de4-c2b0-08d859126e0a",
-      "facilityId": "cb646ed6-447a-4cb6-aedc-08dd529b53b7",
-      "facilityName": "Neshallen",
-      "competitionTypeName": "Åpent stevne",
-      "status": 1,
-      "applicationType": 0,
-      "registrationStartDate": null,
-      "registrationEndDate": null,
-      "hasPendingChangeRequests": false,
-      "hasResult": false
-    },
     {
       "id": "b809f50c-aaa5-4790-41a5-08df380c8fb2",
       "title": "Lapua ungdomscup #2 - BPK",
