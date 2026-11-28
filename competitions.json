@@ -1,7 +1,7 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
   "sourceApi": "https://nsfapi.azurewebsites.net/query/competitionlist",
-  "generatedAt": "2026-11-27T14:59:42.494Z",
+  "generatedAt": "2026-11-28T14:08:18.728Z",
   "filters": {
     "branch": "Pistol",
     "branchId": "0beff7e2-94f7-4284-b76e-fc3e17b29e4f",
@@ -6015,7 +6015,7 @@
       "registrationStartDate": "2026-09-27T18:00:00",
       "registrationEndDate": "2026-11-22T10:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "77b08fec-6132-413b-7a48-08df449c1224",
@@ -6051,7 +6051,7 @@
       "registrationStartDate": null,
       "registrationEndDate": null,
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "b809f50c-aaa5-4790-41a5-08df380c8fb2",
@@ -6105,7 +6105,7 @@
       "registrationStartDate": "2026-11-01T11:00:00",
       "registrationEndDate": "2026-11-27T17:00:00",
       "hasPendingChangeRequests": false,
-      "hasResult": false
+      "hasResult": true
     },
     {
       "id": "c85dd204-2fa3-45c3-7b0c-08df449c1224",
@@ -6136,7 +6136,7 @@
       "facilityId": "97022bdf-622e-453c-3b3b-08dde65c98a5",
       "facilityName": "OSS-Banen P4",
       "competitionTypeName": "Åpent stevne",
-      "status": 1,
+      "status": 3,
       "applicationType": 0,
       "registrationStartDate": "2026-11-21T18:48:00",
       "registrationEndDate": "2026-11-27T23:59:00",
@@ -6154,7 +6154,7 @@
       "facilityId": "ba027343-7262-46b0-3416-08df18990731",
       "facilityName": "Miniatyrbanen 25/10m",
       "competitionTypeName": "Åpent stevne",
-      "status": 1,
+      "status": 3,
       "applicationType": 2,
       "registrationStartDate": "2026-09-27T18:00:00",
       "registrationEndDate": "2026-11-29T10:00:00",

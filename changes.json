@@ -1,7 +1,34 @@
 {
   "source": "Norges Sportsskytterforbund / SkytterAdmin",
-  "generatedAt": "2026-11-27T14:59:42.494Z",
+  "generatedAt": "2026-11-28T14:08:18.728Z",
   "baselineCreated": false,
-  "count": 0,
-  "changes": []
+  "count": 2,
+  "changes": [
+    {
+      "event": "avlyst",
+      "id": "d7f498db-c98f-47f3-7a59-08df449c1224",
+      "title": "NAIS OSS",
+      "startDate": "2026-11-28T15:00:00",
+      "organizationName": "Oslo Sportsskyttere",
+      "fields": {
+        "status": {
+          "before": 1,
+          "after": 3
+        }
+      }
+    },
+    {
+      "event": "avlyst",
+      "id": "548344d6-6c28-4078-fbb1-08df1cc594a2",
+      "title": "OPK Luft 3A",
+      "startDate": "2026-11-29T11:00:00",
+      "organizationName": "Oslo Pistolklubb",
+      "fields": {
+        "status": {
+          "before": 1,
+          "after": 3
+        }
+      }
+    }
+  ]
 }
